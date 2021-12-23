@@ -1,0 +1,42 @@
+{
+    "name": "WE65",
+    "vendorId": "0x5765",
+    "productId": "0x0034",
+    "lighting": {
+        "extends": "none",
+        "keycodes": "qmk"
+    },
+    "customKeycodes": [
+        {"title": "Set USB Output", "name": "USB", "shortName": "USB"},
+        {"title": "Set BLE1 Output, Press and hold for 3 seconds to pair a new device", "name": "BLE1", "shortName": "BLE1"},
+        {"title": "Set BLE2 Output, Press and hold for 3 seconds to pair a new device", "name": "BLE2",  "shortName": "BLE2"},
+        {"title": "Set BLE3 Output, Press and hold for 3 seconds to pair a new device", "name": "BLE3",  "shortName": "BLE3"},
+        {"title": "Set RF Output", "name": "RF",  "shortName": "RF"},
+        {"title": "Reset BLE", "name": "BLE RST",  "shortName": "BLE RST"},
+        {"title": "Print battery info", "name": "PRT BAT",  "shortName": "PRT BAT"},
+        {"title": "Enter Sleep mode", "name": "SLEEP",  "shortName": "SLEEP"},
+        {"title": "On/Off Led indicator", "name": "TOG IND",  "shortName": "TOG IND"},
+        {"title": "Setup wakeup key", "name": "WAKEUP SETUP",  "shortName": "WAKEUP SETUP"},
+        {"title": "Wakeup keyboard with any key", "name": "WAKEUP RST",  "shortName": "WAKEUP RST"},
+        {"title": "Restart keyboard", "name": "RESTART",  "shortName": "RESTART"},
+        {"title": "Sleep delay +10 min", "name": "SLP UP",  "shortName": "SLP UP"},
+        {"title": "Sleep delay -10 min", "name": "SLP DOWN",  "shortName": "SLP DOWN"},
+        {"title": "Sleep delay default 10 min", "name": "SLP DEFAULT",  "shortName": "SLP DEFAULT"},
+        {"title": "Keyboard info", "name": "INFO",  "shortName": "INFO"}
+    ],
+    "matrix": { "rows": 10, "cols": 8 },
+    "layouts": {
+        "keymap": [
+            [{"c":"#f1ede6"},"0,0","1,0","0,1","1,1","0,2","1,2","0,3","1,3","0,4","1,4","0,5","1,5","0,6",{"w":2},"1,6","0,7",{"x":0.25,"d":true},"9,0\n\n\n0,0","9,0\n\n\n0,1"],
+            [{"w":1.5},"2,0","3,0","2,1","3,1","2,2","3,2","2,3","3,3","2,4","3,4","2,5","3,5","2,6",{"w":1.5},"3,6","2,7",{"x":0.25,"d":true},"9,1\n\n\n0,0","9,1\n\n\n0,1"],
+            [{"w":1.75},"4,0","4,1","5,1","4,2","5,2","4,3","5,3","4,4","5,4","4,5","5,5","4,6",{"w":2.25},"5,6","4,7"],
+            [{"w":2.25},"6,0","6,1","7,1","6,2","7,2","6,3","7,3","6,4","7,4","6,5","7,5",{"w":1.75},"6,6","7,6","6,7"],
+            [{"w":1.25},"8,0",{"w":1.25},"8,1",{"w":1.25},"8,2",{"w":6.25},"8,3","8,4\n\n\n1,0","8,5\n\n\n1,0","8,6\n\n\n1,0","8,7","7,7","5,7"],
+            [{"y":0.25,"x":10,"w":1.25},"8,4\n\n\n1,1",{"w":1.25},"8,5\n\n\n1,1"]
+        ],
+        "labels": [
+            "ENCODER",
+            ["Blocker", "No", "Yes"]
+        ]
+    }
+}
