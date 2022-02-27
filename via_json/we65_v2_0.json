@@ -22,7 +22,7 @@
         {"title": "Sleep delay +10 min", "name": "SLP UP",  "shortName": "SLP UP"},
         {"title": "Sleep delay -10 min", "name": "SLP DOWN",  "shortName": "SLP DOWN"},
         {"title": "Sleep delay default 10 min", "name": "SLP DEFAULT",  "shortName": "SLP DEFAULT"},
-        {"title": "Keyboard info", "name": "INFO",  "shortName": "INFO"}
+        {"title": "Print sleep delay", "name": "SLP PRT",  "shortName": "SLP PRT"}
     ],
     "matrix": { "rows": 10, "cols": 8 },
     "layouts": {
