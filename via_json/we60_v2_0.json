@@ -2,10 +2,7 @@
     "name": "WE63",
     "vendorId": "0x5765",
     "productId": "0x0026",
-    "lighting": {
-        "extends": "none",
-        "keycodes": "qmk"
-    },
+    "lighting": "qmk_rgblight",
     "customKeycodes": [
         {"title": "Set USB Output", "name": "USB", "shortName": "USB"},
         {"title": "Set BLE1 Output, Press and hold for 3 seconds to pair a new device", "name": "BLE1", "shortName": "BLE1"},
