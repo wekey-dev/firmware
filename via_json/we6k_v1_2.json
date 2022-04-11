@@ -1,0 +1,31 @@
+{
+    "name": "WE6K",
+    "vendorId": "0x5765",
+    "productId": "0x0044",
+    "lighting": "qmk_rgblight",
+    "customKeycodes": [
+        {"title": "Set USB Output", "name": "USB", "shortName": "USB"},
+        {"title": "Set BLE1 Output, Press and hold for 3 seconds to pair a new device", "name": "BLE1", "shortName": "BLE1"},
+        {"title": "Set BLE2 Output, Press and hold for 3 seconds to pair a new device", "name": "BLE2",  "shortName": "BLE2"},
+        {"title": "Set BLE3 Output, Press and hold for 3 seconds to pair a new device", "name": "BLE3",  "shortName": "BLE3"},
+        {"title": "Set RF Output", "name": "RF",  "shortName": "RF"},
+        {"title": "Reset BLE", "name": "BLE RST",  "shortName": "BLE RST"},
+        {"title": "Print battery info", "name": "PRT BAT",  "shortName": "PRT BAT"},
+        {"title": "Enter Sleep mode", "name": "SLEEP",  "shortName": "SLEEP"},
+        {"title": "On/Off Led indicator", "name": "TOG IND",  "shortName": "TOG IND"},
+        {"title": "Setup wakeup key", "name": "WAKEUP SETUP",  "shortName": "WAKEUP SETUP"},
+        {"title": "Wakeup keyboard with any key", "name": "WAKEUP RST",  "shortName": "WAKEUP RST"},
+        {"title": "Restart keyboard", "name": "RESTART",  "shortName": "RESTART"},
+        {"title": "Sleep delay +10 min", "name": "SLP UP",  "shortName": "SLP UP"},
+        {"title": "Sleep delay -10 min", "name": "SLP DOWN",  "shortName": "SLP DOWN"},
+        {"title": "Sleep delay default 10 min", "name": "SLP DEFAULT",  "shortName": "SLP DEFAULT"},
+        {"title": "Print sleep delay", "name": "SLP PRT",  "shortName": "SLP PRT"}
+    ],
+    "matrix": { "rows": 3, "cols": 4 },
+    "layouts": {
+        "keymap": [
+            ["0,0","0,1","0,2",{"x":0.25},"2,0","2,1"],
+            ["1,0","1,1","1,2",{"x":0.75},"0,3"]
+        ]
+    }
+}
